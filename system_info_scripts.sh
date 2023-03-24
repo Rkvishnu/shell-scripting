@@ -16,14 +16,14 @@ df -H | xargs | awk '{ print " Disk Space Available: " "Free/Used: " $10 "/" $9 
 
 
 sleep 3
-echo " user uptime"
+echo " ***********user uptime*******"
 uptime
 
 
-echo  "last 3 login details"
+echo  "***********last 3 login details********"
 last | head -3
 
 sleep 3
 
-echo " currently connected "
+echo "********** currently connected********** "
 w
